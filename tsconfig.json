@@ -1,0 +1,21 @@
+{
+  "files": [],
+  "references": [
+    {
+      "path": "./tsconfig.app.json"
+    },
+    {
+      "path": "./tsconfig.node.json"
+    }
+  ],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+    "esModuleInterop": true,         // ✅ Required for default imports like thunk
+    "allowSyntheticDefaultImports": true, // ✅ Optional but helpful
+     "target": "ES2021",
+    "lib": ["DOM", "ES2021"],
+  }
+}

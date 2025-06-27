@@ -1,0 +1,8 @@
+.authContainer{
+    background-image: url("https://cdn.pixabay.com/photo/2022/12/26/11/37/crypto-7678815_640.jpg");
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
